@@ -19,6 +19,8 @@ namespace MetalCoin.Infra.Migrations
                     TipoFornecedor = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<bool>(type: "bit", nullable: false)
                 }
+                );
+
                 
            
         }
