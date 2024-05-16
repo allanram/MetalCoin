@@ -18,7 +18,7 @@ namespace MetalCoin.Infra.Migrations
                     Descrição = table.Column<string>(type: "varchar(100)", nullable: false),
                     TipoFornecedor = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<bool>(type: "bit", nullable: false)
-                },
+                }
                 
            
         }
