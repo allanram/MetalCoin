@@ -12,7 +12,7 @@ namespace Metalcoin.Core.Domain
     {
         public string Codigo { get; set; }
         public string Descricao { get; set; }
-        public decimal ValorDesconto { get; set; }
+        public double ValorDesconto { get; set; }
         public DateTime DataValidade { get; set; }
         public int CuponsLiberados { get; set; }
         public int CuponsUsados { get; set; }
