@@ -11,7 +11,7 @@ namespace MetalCoin.Api.Controllers
 
         [HttpGet]
         [Route("cupom/desconto")]
-        public AlunoResponse GetDescontos(string codigo)
+        public CupomDesconto GetDescontos(string codigo)
         {
 
             var desconto = new CupomDesconto
@@ -25,6 +25,7 @@ namespace MetalCoin.Api.Controllers
                 Status = TipoStatusCupom.Ativo
 
             };
+
             return desconto;
         }
     }   
